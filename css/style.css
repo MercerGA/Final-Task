@@ -60,6 +60,9 @@
 .nav-text:hover {
     color:  #367dff;
 }
+.active {
+    color: #367dff;
+}
 /* Header */
 /* Section 1 */
 .section1 {
@@ -222,7 +225,7 @@
 }
 /* Phones */
 /* Seciton */
-.phones {
+.phones1 {
     padding-top: 130px;
     width: 1000px;
     display: flex;
@@ -235,6 +238,8 @@
     background-color: #1d1d1f;
     border-radius: 2px;
     margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
 }
 .phone2 {
     width: 1000px;
@@ -242,6 +247,8 @@
     background-color: #1d1d1f;
     border-radius: 2px;
     margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
 }
 .phone3 {
     width: 1000px;
@@ -249,15 +256,63 @@
     background-color: #1d1d1f;
     border-radius: 2px;
     margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
 }
 .phonepagephones {
     width: 200px;
     height: 200px;
 }
 .phonemodel {
-    font-size: 18px;
+    font-size: 20px;
     color: white;
-    padding-left: 40px;
+    padding-left: 45px;
     padding-top: 20px;
     font-family: 'Roboto';
+}
+.specs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+    font-size: 18px;
+}
+.specstext {
+    color: white;
+}
+.specstextfont {
+    font-family: 'Roboto';
+}
+.phonedescription {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.descriptionmargin {
+    margin-bottom: 16px;
+}
+.descriptiontext {
+    font-size: 20px;
+    line-height: 25px;
+}
+.price {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 200px;
+}
+/* Laptops */
+/* Seciton */
+.laptopsize {
+    width: 200px;
+    height: auto;
+    margin-top: 30px;
+}
+/* Desktops */
+/* Seciton */
+.computersize {
+    width: 180px;
+    height: auto;
+    margin-top: 0px;
 }
