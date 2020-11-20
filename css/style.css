@@ -1,16 +1,19 @@
 /* Header */
-.forcolor {
-    background-color:black;
+.bodycolor {
+    background-color:#0f0f0f;
 }
 .headercolor {
-    background:#1d1d1f;
+    background: #1d1d1f;
+    width: 100%;
 }
 .header {
-    width: 1300px;
+    width: 100%;
     height: 80px;
     margin: 0 auto;
+    position: fixed;
+    z-index: 999999999;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: #1d1d1f;
 }
@@ -74,6 +77,7 @@
 .laptopintro {
     font-size: 30px;
     color: white;
+    font-family: 'Roboto';
 }
 .laptop {
     width: 900px;
@@ -98,6 +102,7 @@
 .button:hover {
     color: black;
     background-color: gold;
+    font-size: 20px;
 }
 /* Section 2 */
 .section2 {
@@ -144,6 +149,115 @@
 }
 /* Footer */
 .footer {
+    width: 100%;
+    height: 350px;
+    margin-top: 50px;
+    background-color: #1d1d1f;
+}
+.footerelements {
     width: 1300px;
-    height: 600px;
+    margin: 0 auto;
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+.footersectiontitle {
+    font-size: 26px;
+    color: white;
+    font-family: 'Open Sans';
+}
+.socdiv {
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.socialmedia {
+    font-size: 16px;
+    color: white;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+}
+.socialmediamargin {
+    margin-top: 15px;
+}
+.socialmediatext {
+    margin-left: 20px;
+    font-family: 'Open Sans';
+}
+.socialmedia:hover {
+    color:#3f729b;
+    font-size: 20px;
+}
+.servicesfont {
+    font-family: 'Open Sans';
+}
+.copyright {
+    width: 1300px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: white;
+    margin-top: 80px;
+    font-family: 'Open Sans';
+    z-index: 99999;
+}
+.bracket {
+    padding-right: 10px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+.bracket::after {
+    content: "";
+    display: inline-block;
+    vertical-align: bottom;
+    background-color: white;
+    height: 15px;
+    width: 2px;
+    margin-left: 10px;
+}
+.kaki {
+    color: rgb(54, 125, 255);
+}
+/* Phones */
+/* Seciton */
+.phones {
+    padding-top: 130px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.phone1 {
+    width: 1000px;
+    height: 240px;
+    background-color: #1d1d1f;
+    border-radius: 2px;
+    margin-bottom: 30px;
+}
+.phone2 {
+    width: 1000px;
+    height: 240px;
+    background-color: #1d1d1f;
+    border-radius: 2px;
+    margin-bottom: 30px;
+}
+.phone3 {
+    width: 1000px;
+    height: 240px;
+    background-color: #1d1d1f;
+    border-radius: 2px;
+    margin-bottom: 30px;
+}
+.phonepagephones {
+    width: 200px;
+    height: 200px;
+}
+.phonemodel {
+    font-size: 18px;
+    color: white;
+    padding-left: 40px;
+    padding-top: 20px;
+    font-family: 'Roboto';
 }
