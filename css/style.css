@@ -1,6 +1,6 @@
 /* Header */
 .forcolor {
-    background-color:#1d1d1f;
+    background-color:black;
 }
 .headercolor {
     background:#1d1d1f;
@@ -102,7 +102,7 @@
 /* Section 2 */
 .section2 {
     width: 1300px;
-    height: 850px;
+    height: 700px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -115,4 +115,35 @@
 .section2div2 {
     width: 400px;
     height: 300px;
+}
+/* Section 3 */
+.section3 {
+    width: 1300px;
+    height: 850px;
+    margin: 0 auto;
+}
+.section3-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 130px 0px 0px 0px;
+}
+.computer {
+    width: 430px;
+    height: auto;
+}
+.desktoppadding {
+    padding: 50px 0px 0px 0px;
+}
+.buttonfordesktop {
+    width: 1300px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* Footer */
+.footer {
+    width: 1300px;
+    height: 600px;
 }
