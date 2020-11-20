@@ -227,13 +227,13 @@
 /* Seciton */
 .phones1 {
     padding-top: 130px;
-    width: 1000px;
+    width: 1100px;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
 }
 .phone1 {
-    width: 1000px;
+    width: 1100px;
     height: 240px;
     background-color: #1d1d1f;
     border-radius: 2px;
@@ -242,7 +242,7 @@
     justify-content: space-around;
 }
 .phone2 {
-    width: 1000px;
+    width: 1100px;
     height: 240px;
     background-color: #1d1d1f;
     border-radius: 2px;
@@ -251,7 +251,7 @@
     justify-content: space-around;
 }
 .phone3 {
-    width: 1000px;
+    width: 1100px;
     height: 240px;
     background-color: #1d1d1f;
     border-radius: 2px;
@@ -315,4 +315,13 @@
     width: 180px;
     height: auto;
     margin-top: 0px;
+}
+/* Register */
+/* Section */
+.registrationcontainer {
+    margin-top: 150px;
+    width: 400px;
+    height: 700px;
+    background-color: white;
+    margin: 0 auto;
 }
