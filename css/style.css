@@ -91,7 +91,7 @@ header {
 /* Section 1 */
 .section1 {
     width: 1300px;
-    height: 100vh;
+    height: 850px;
     margin: 0 auto;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -140,7 +140,7 @@ header {
 /* Section 2 */
 .section2 {
     width: 1300px;
-    height: 100vh;
+    height: 750px;
     margin: 0 auto;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -163,7 +163,7 @@ header {
 /* Section 3 */
 .section3 {
     width: 1300px;
-    height: 100vh;
+    height: 800px;
     margin: 0 auto;
 }
 .section3-1 {
