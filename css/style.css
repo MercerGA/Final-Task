@@ -340,6 +340,8 @@
 .registrationtitle {
     margin: 0 auto;
     color: rgb(54, 125, 255);
+    font-size: 22px;
+    font-family: 'Roboto';
 }
 .form-wraper {
     display: flex;
@@ -349,14 +351,21 @@
 .input {
     border: none;
     outline: none;
-    width: 400px;
+    width: 360px;
     height: 40px;
-    margin: 12px 0px 17.5px 0px;
-    border: solid 1px #2E2E2E;
+    margin: 12px 0px 17.5px 20px;
+    border: solid 1.8px #2E2E2E;
     border-radius: 3px;
     transition: 0.3s;
     -webkit-transition: 0.3s;
-    font-family: 'Poppins';
+    font-family: 'Roboto';
+}
+.poppins {
+    margin-left: 20px;
+    font-family: 'Roboto';
+}
+.centerbutton {
+    margin: 60px 0px 0px 100px;
 }
 .input::placeholder {
     font-family: 'Roboto';
