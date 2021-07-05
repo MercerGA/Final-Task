@@ -77,6 +77,47 @@ header {
 .active {
     color: #367dff;
 }
+.dropbtn {
+    color: white;
+    font-size: 20px;
+    background-color: #1d1d1f;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    font-family: 'Open Sans';
+    padding: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    padding-right: 68px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    margin-top: 20px;
+    background-color: #f1f1f1;
+    transition: 0.3s;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {color: rgb(54, 125, 255);}
+  
 .burger {
     color: white;
     -o-transition: 0.5s;
@@ -91,7 +132,7 @@ header {
 /* Section 1 */
 .section1 {
     width: 1300px;
-    height: 850px;
+    height: 980px;
     margin: 0 auto;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -140,7 +181,7 @@ header {
 /* Section 2 */
 .section2 {
     width: 1300px;
-    height: 750px;
+    height: 980px;
     margin: 0 auto;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -163,7 +204,7 @@ header {
 /* Section 3 */
 .section3 {
     width: 1300px;
-    height: 800px;
+    height: 980px;
     margin: 0 auto;
 }
 .section3-1 {
