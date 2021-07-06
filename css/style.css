@@ -290,7 +290,6 @@ header {
 }
 .socialmedia:hover {
     color:#3f729b;
-    font-size: 20px;
 }
 .servicesfont {
     font-family: 'Open Sans';
@@ -519,6 +518,81 @@ header {
     margin-left: 20px;
     font-family: 'Roboto';
 }
+/* Section Contact */
+.contact-container {
+    width: 1500px;
+    height: 840px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.map {
+    margin: 0 auto;
+}
+.contact-info {
+    margin: 0 auto;
+    height: 840px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 65px 0px 65px 0px;
+}
+/* Section Contact End */
+/* Section About Us */
+.aboutus-container {
+    width: 1500px;
+    height: 840px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.aboutus {
+    height: 500px;
+    width: 400px;
+    margin: 0 auto;
+}
+.aboutus-title {
+    color: white;
+    font-size: 35px;
+}
+.aboutus-text {
+    color: white;
+    font-size: 24px;
+}
+/* Section About Us End */
+/* Payment Container */
+.payment-container {
+    width: 1500px;
+    height: 840px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.delivery-info {
+    width: 400px;
+    height: 500px;
+    background-color: #1d1d1f;
+    padding: 30px 0px 30px 0px;
+}
+.card-info {
+    width: 400px;
+    height: 500px;
+    background-color: #1d1d1f;
+    padding: 30px 0px 30px 0px;
+}
+.confirmation-info {
+    width: 400px;
+    height: 500px;
+    background-color: #1d1d1f;
+    padding: 30px 0px 30px 0px;
+}
+/* Payment Container End */
 .centerbutton {
     margin: 60px 0px 0px 100px;
 }
