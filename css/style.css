@@ -98,7 +98,7 @@ header {
   .dropdown-content {
     display: none;
     position: absolute;
-    margin-top: 20px;
+    margin-top: 10px;
     background-color: #f1f1f1;
     transition: 0.3s;
     min-width: 160px;
