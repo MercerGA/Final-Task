@@ -58,22 +58,72 @@
     <section>
         <div class="divforheader"></div>
         <div class="payment-container">
-            <div class="delivery-info">
-                <p class="poppins aboutus-text">Step 1:</p>
-                <br>
-                <p class="poppins aboutus-text">Input Delivery Information</p>
-            </div>
-            <div class="card-info">
-                <p class="poppins aboutus-text">Step 2:</p>
-                <br>
-                <p class="poppins aboutus-text">Input Your Credit Card Details</p>
-            </div>
-            <div class="confirmation-info">
-                <p class="poppins aboutus-text">Step 3:</p>
-                <br>
-                <p class="poppins aboutus-text">Confirm Your Details and Purchase</p>
-            </div>
-        </div>
+            <div class="row">
+                <div class="col-75">
+                  <div class="container">
+                    <form action="/action_page.php">
+                    
+                      <div class="row">
+                        <div class="col-50">
+                          <h3>Billing Address</h3>
+                          <br>
+                          <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                          <input type="text" id="fname" name="firstname" placeholder="Type your full name">
+                          <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                          <input type="text" id="email" name="email" placeholder="Type your Email">
+                          <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                          <input type="text" id="adr" name="address" placeholder="Type your address">
+                          <label for="city"><i class="fa fa-institution"></i> City</label>
+                          <input type="text" id="city" name="city" placeholder="Type your city name">
+              
+                          <div class="row">
+                            <div class="col-50">
+                              <label for="state">State</label>
+                              <input type="text" id="state" name="state" placeholder="State">
+                            </div>
+                            <div class="col-50">
+                              <label for="zip">Zip</label>
+                              <input type="text" id="zip" name="zip" placeholder="Zip Code">
+                            </div>
+                          </div>
+                        </div>
+              
+                        <div class="col-50">
+                          <h3>Payment</h3>
+                          <label for="fname">Accepted Cards</label>
+                          <div class="icon-container">
+                            <i class="fa fa-cc-visa" style="color:navy;"></i>
+                            <i class="fa fa-cc-amex" style="color:blue;"></i>
+                            <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                            <i class="fa fa-cc-discover" style="color:orange;"></i>
+                          </div>
+                          <label for="cname">Name on Card</label>
+                          <input type="text" id="cname" name="cardname" placeholder="Type the name on the card">
+                          <label for="ccnum">Credit card number</label>
+                          <input type="text" id="ccnum" name="cardnumber" placeholder="Type the numbers on the card">
+                          <label for="expmonth">CVV</label>
+                          <input type="text" id="expmonth" name="expmonth" placeholder="Type the CVV Code from the back of the card">
+                          <div class="row">
+                            <div class="col-50">
+                              <label for="expyear">Exp. Year</label>
+                              <input type="text" id="expyear" name="expyear" placeholder="Year">
+                            </div>
+                            <div class="col-50">
+                              <label for="cvv">Month</label>
+                              <input type="text" id="cvv" name="cvv" placeholder="Month">
+                            </div>
+                          </div>
+                        </div>
+                        
+                      </div>
+                      <label>
+                        <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+                      </label>
+                      <input type="submit" value="Continue to checkout" class="btn">
+                    </form>
+                  </div>
+                </div>
+              </div>
     </section>
     <footer>
         <div class="footer">
@@ -84,7 +134,7 @@
                         <a href="https://twitter.com/" target="_blank" class="socialmedia">
                             <li class="socialmediamargin"><i class="fab fa-twitter"></i><span class="socialmediatext">Twitter</span></li>
                         </a>
-                        <a href="https://www.facebook.com/" target="_blank" class="socialmedia">
+                        <a href="https://www.facebook.com/profile.php?id=100070320971594" target="_blank" class="socialmedia">
                             <li class="socialmediamargin"><i class="fab fa-facebook-f"></i><span class="socialmediatext">Facebook</span></li>
                         </a>
                         <a href="https://www.instagram.com/" target="_blank" class="socialmedia">
@@ -130,7 +180,7 @@
             <div>
                 <div class="copyright">
                     <div>
-                        <p class="bracket">Copyright ©2020 all rights reserved</p>
+                        <p class="bracket">Copyright ©2021 all rights reserved</p>
                     </div>
                     <div>
                         <p>This website was made with struggle by <span class="kaki">Kaki</span>.</p>

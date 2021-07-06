@@ -566,7 +566,7 @@ header {
 /* Section About Us End */
 /* Payment Container */
 .payment-container {
-    width: 1500px;
+    width: 1600px;
     height: 840px;
     margin: 0 auto;
     display: flex;
@@ -575,23 +575,135 @@ header {
     align-items: center;
 }
 .delivery-info {
-    width: 400px;
+    width: 431px;
     height: 500px;
     background-color: #1d1d1f;
     padding: 30px 0px 30px 0px;
+    border-radius: 2px;
 }
 .card-info {
-    width: 400px;
+    width: 431px;
     height: 500px;
     background-color: #1d1d1f;
     padding: 30px 0px 30px 0px;
+    border-radius: 2px;
 }
 .confirmation-info {
-    width: 400px;
+    width: 431px;
     height: 500px;
     background-color: #1d1d1f;
     padding: 30px 0px 30px 0px;
+    border-radius: 2px;
 }
+.colorandsize {
+    color: white;
+    font-size: 25px;
+}
+.delivery-info-form {
+    margin: 0 auto;
+}
+.delivery-info-form-titles {
+    color: white;
+}
+.card-info-form {
+    display: flex;
+    flex-direction: column;
+}
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -16px;
+  }
+  
+  .col-25 {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+  }
+  
+  .col-50 {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+  }
+  
+  .col-75 {
+    -ms-flex: 75%; /* IE10 */
+    flex: 75%;
+  }
+  
+  .col-25,
+  .col-50,
+  .col-75 {
+    padding: 0 16px;
+  }
+  
+  .container {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+  }
+  
+  input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  
+  .btn {
+    background-color: #367dff;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {
+    color: black;
+    background-color: gold;
+  }
+  
+  a {
+    color: #2196F3;
+  }
+  
+  hr {
+    border: 1px solid lightgrey;
+  }
+  
+  span.price {
+    float: right;
+    color: grey;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+  @media (max-width: 800px) {
+    .row {
+      flex-direction: column-reverse;
+    }
+    .col-25 {
+      margin-bottom: 20px;
+    }
+  }
 /* Payment Container End */
 .centerbutton {
     margin: 60px 0px 0px 100px;
